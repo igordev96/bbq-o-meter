@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbecue-O-Meter</title>
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="./assets/bbq.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+        
+        <div class="main container">
+            <h1 class="animate__animated animate__lightSpeedInLeft"><div class="animate__animated animate__pulse animate__infinite animate__slow">Barbecue-O-Meter</div></h1>
+            <div class="inputContainer">
+                <input type="number" class="input" name="women" id="women" placeholder="Número de Mulheres">
+                <input type="number" class="input" name="men" id="men" placeholder="Número de Homens">
+                <input type="number" class="input" name="kids" id="kids" placeholder="Número de Crianças">
+                <input type="number" class="input" name="time" id="time" placeholder="Duração do Evento">
+                <span class="btn">Calcular</span>
+            </div>
+        </div>
+
+        <div class="results container">
+            <h1 class="animate__animated animate__zoomIn">Vamos Churrascar 🎉</h1>
+            <div class="resultsContainer">
+                <div class="quantity meat"></div>
+                <div class="quantity beer"></div>
+                <div class="quantity soda"></div>
+                <span class="btn">Retornar</span>
+            </div>
+        </div>
+
+        <footer><a href="https://github.com/igordev96" target="_blank"><em>Designed and Developed by igordev96</em></a></footer>
+        <script src="./script/script.js"></script>
+    </body>
+</html>

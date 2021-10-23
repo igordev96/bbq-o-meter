@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #1b1612;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/bbq.jpg);
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 450px;
+    flex-direction: column;
+    background-color: rgba(153, 153, 143, 0.8);
+    border-radius: 40px;
+}
+
+.main{
+    display: flex;
+}
+
+.results{
+    display: none;
+}
+
+h1{
+    position: absolute;
+    top: 5vh;
+    cursor: default;
+    font-size: 2.3rem;
+}
+
+.quantity{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(203, 183, 150, 0.7);
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.resultsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.meat{
+    background-image: url(../assets/meat.png);
+    background-position: 260px 3px;
+    background-repeat: no-repeat;
+}
+
+.beer{
+    background-image: url(../assets/beer.png);
+    background-position: 260px 3px;
+    background-repeat: no-repeat;
+}
+
+.soda{
+    background-image: url(../assets/soda.png);
+    background-position: 260px 3px;
+    background-repeat: no-repeat;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.input{
+    cursor: default;
+    text-align: center;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    width: 250px;
+    height: 32px;
+}
+
+#women{
+    background-image: url(../assets/woman.png);
+    background-repeat: no-repeat;
+    background-position: 5px 0px;
+    background-size: 32px;
+}
+
+#men{
+    background-image: url(../assets/young-man.png);
+    background-repeat: no-repeat;
+    background-position: 5px 0px;
+    background-size: 32px;
+}
+
+#kids{
+    background-image: url(../assets/kid.png);
+    background-repeat: no-repeat;
+    background-position: 5px 0px;
+    background-size: 32px;
+}
+
+#time{
+    background-image: url(../assets/clock.png);
+    background-repeat: no-repeat;
+    background-position: 5px 0px;
+    background-size: 32px;
+}
+
+
+.input:focus{
+    box-shadow: 0 0 5px 2px #db5c01;
+    background-color: #cbb796;
+    transition: 0.5s;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    background-color: #f8a73f;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 50px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #db5c01;
+    transform: translateY(-10%);
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+footer em{
+    color: #f7dbab;
+}
+
+a{
+    text-decoration: none;
+}
